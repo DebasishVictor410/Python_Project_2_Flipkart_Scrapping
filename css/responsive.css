@@ -1,0 +1,250 @@
+@media all and (max-width: 1200px){
+    .content{
+        font-size: 20px;
+    }
+
+    input[type="text"]{
+        font-size: 18px;
+    }
+    input[type="submit"]{
+       
+        font-size: 18px;
+    }
+    
+    .table-users .header h2{
+       
+        font-size: 30px;
+        padding: 22px;
+     
+    }
+    table{
+       width: 85%;
+       margin: auto;
+    }
+    table tr{
+        width: 16.67%
+    }
+    tr td,
+    tr th{
+        
+        font-size: 18px;
+        padding: 12px;
+        
+    }
+  
+}
+
+@media all and (max-width: 1000px){
+
+    .content{
+        font-size: 18px;
+    }
+
+    input[type="text"]{
+        font-size: 16px;
+    }
+    input[type="submit"]{
+       
+        font-size: 16px;
+    }
+    
+    .table-users .header h2{
+       
+        font-size: 28px;
+        padding: 20px;
+     
+    }
+    table{
+       width: 87%;
+       margin: auto;
+    }
+    table tr{
+        width: 16.67%
+    }
+    tr td,
+    tr th{
+        
+        font-size: 16px;
+        padding: 10px;
+        
+    }
+    
+}
+
+@media all and (max-width: 778px){
+
+    .content{
+        font-size: 16px;
+    }
+
+    input[type="text"]{
+        font-size: 14px;
+    }
+    input[type="submit"]{
+       
+        font-size: 14px;
+    }
+    
+    .table-users .header h2{
+       
+        font-size: 25px;
+        padding: 18px;
+     
+    }
+    table{
+       width: 90%;
+       margin: auto;
+    }
+    table tr{
+        width: 16.67%
+    }
+    tr td,
+    tr th{
+        
+        font-size: 15px;
+        padding: 8px;
+        
+    }
+  
+    
+}
+
+
+
+@media all and (max-width: 638px){
+    .content{
+        font-size: 14px;
+    }
+
+    input[type="text"]{
+        font-size: 13px;
+    }
+    input[type="submit"]{
+       
+        font-size: 13px;
+    }
+    
+    .table-users .header h2{
+       
+        font-size: 22px;
+        padding: 15px;
+     
+    }
+    table{
+       width: 92%;
+       margin: auto;
+    }
+    table tr{
+        width: 16.67%
+    }
+    tr td,
+    tr th{
+        
+        font-size: 13px;
+        padding: 6px;
+        
+    }
+  
+}
+
+
+@media all and (max-width: 540px){
+    .content{
+        font-size: 13px;
+    }
+
+    input[type="text"]{
+        font-size: 10px;
+    }
+    input[type="submit"]{
+       
+        font-size: 10px;
+    }
+    
+    .table-users .header h2{
+       
+        font-size: 15px;
+        padding: 10px;
+     
+    }
+    table{
+       width: 98%;
+       margin: auto;
+    }
+   
+    tr td,
+    tr th{
+        
+        font-size: 6px;
+        padding: 5px;
+        
+    }
+  
+}
+
+@media all and (max-width: 450px){
+    .content{
+        font-size: 10px;
+    }
+
+    input[type="text"]{
+        font-size: 6px;
+    }
+    input[type="submit"]{
+       
+        font-size: 6px;
+    }
+    
+    .table-users .header h2{
+       
+        font-size: 12px;
+        padding: 10px;
+     
+    }
+    table{
+       width: 99%;
+       margin: auto;
+    }
+   
+    tr td,
+    tr th{
+        
+        font-size: 5px;
+        padding: 1px;
+        
+    }
+  
+}
+
+@media all and (max-width: 330px){
+    .content{
+        font-size: 10px;
+    }
+
+    input[type="text"]{
+        font-size: 8px;
+    }
+    input[type="submit"]{
+       
+        font-size: 8px;
+    }
+    
+    .table-users .header h2{
+       
+        font-size: 12px;
+        padding: 10px;
+     
+    }
+    table{
+       width: 100%
+    }
+   
+    tr td,
+    tr th{
+        
+        font-size: 5px;
+        padding: 1px;
+        
+    }
+  
+}

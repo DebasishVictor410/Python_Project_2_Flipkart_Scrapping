@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+
+</head>
+
+<body>
+    <div class="table-users">
+        <div class="header">
+            <h2>
+                Reviews</h2>
+            </div>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Product Overall Rating</th>
+                        <th>Name</th>
+                        <th>Each User Rating</th>
+                        <th>Comment Title</th>
+                        <th>Comments</th>
+                    </tr>
+                </thead>
+               
+                    {% for review in reviews %}
+                <tr>
+                    <td>{{review['Product']}}</td>
+                    <td>{{review['Overall_Rating']}}</td>
+                    <td>{{review['Name']}}</td>
+                    <td>{{review['Rating']}}</td>
+                    <td>{{review['ReviewTitle']}}</td>
+                    <td>{{review['Comments']}} </td>
+                {% endfor %}
+                
+            </table>
+       </div>
+    </div>
+
+</body>
+
+</html>
